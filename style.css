@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+#SlideBar{
+    position: fixed;
+    left: -200px;
+    width: 200px;
+    height: 100pc;
+    background-color: black;
+    transition: left 1s linear;
+}
+
+#SlideBar.active{
+    /* width: -200px; */
+    left: 0px;
+}
+
+#SlideBar-toggle-btn{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 120px;
+    position: absolute;
+    top: 10px;
+    right: -50px;
+}
+
+#SlideBar .Links a{
+    display: block;
+    padding: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#SlideBar .Links a:hover{
+    text-decoration: underline;
+}
